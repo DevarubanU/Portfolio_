@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  margin: 15px 0;
+  color: #0ea5e9;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+#project Paper:hover{
+  height: 500px;
+}
