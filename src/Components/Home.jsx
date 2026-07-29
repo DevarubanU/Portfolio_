@@ -1,17 +1,23 @@
-import React from 'react'
-import About from './About';
-import Skills from './Skills';
-import Contact from './Contact';
+import React from "react";
+import About from "./About";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <>
-    <section id="home" className="flex flex-col items-center justify-center text-center px-5 py-28">
-        
-        <h1 className="text-5xl md:text-6xl font-bold">Hi, I'm<span className="text-blue-500"> Devaruban U</span></h1>
-        <h2 className="text-2xl md:text-3xl mt-4 font-semibold">IT Fresher
-        </h2>
-        <p className="max-w-4xl mt-6 text-lg text-gray-500">Seeking an entry-level Software Developer, Front-End Developer, React Developer, or IT Associate role to contribute technical expertise and grow within a dynamic organization.
+      <section
+        id="home"
+        className="flex flex-col items-center justify-center text-center px-5 py-28"
+      >
+        <h1 className="text-5xl md:text-6xl font-bold">
+          Hi, I'm<span className="text-blue-500"> Devaruban U</span>
+        </h1>
+        <h2 className="text-2xl md:text-3xl mt-4 font-semibold">IT Fresher</h2>
+        <p className="max-w-4xl mt-6 text-lg text-gray-500">
+          Seeking an entry-level Software Developer, Front-End Developer, React
+          Developer, or IT Associate role to contribute technical expertise and
+          grow within a dynamic organization.
         </p>
 
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
@@ -32,11 +38,11 @@ const Home = () => {
           </a>
         </div>
       </section>
-      <About/>
-      <Skills/>
-      <Contact/>
+      <About />
+      <Skills />
+      <Contact />
     </>
-  )
-}
+  );
+};
 
 export default Home;
