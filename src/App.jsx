@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
+import { HashRouter } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
@@ -18,7 +19,7 @@ const App = () => {
     <div
       className={`min-h-screen ${darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}
     >
-      <Routers>
+      <HashRouter>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Routes>
           <Route index path="/" element={<Home />} />
@@ -26,7 +27,7 @@ const App = () => {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/event" element={<EventOrganized />} />
         </Routes>
-      </Routers>
+      <HashRouter>
     </div>
   );
 };
