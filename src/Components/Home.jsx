@@ -22,7 +22,7 @@ const Home = () => {
 
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
           <a href="/Deva_Resume.pdf" download="Devaruban_Resume.pdf">
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold ">
               Download Resume
             </button>
           </a>

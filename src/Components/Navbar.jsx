@@ -9,7 +9,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <li className="mr-6">
           <Link to="/" className="hover:text-blue-500">
             Home
-          </Link>``
+          </Link>
         </li>
         <li className="mr-6">
           <Link to="/project" className="hover:text-blue-500">

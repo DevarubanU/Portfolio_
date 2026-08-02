@@ -22,6 +22,9 @@ const App = () => {
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Routes>
           <Route index path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/event" element={<EventOrganized />} />
